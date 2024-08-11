@@ -2,7 +2,7 @@
 This was a workshop conducted under IEEE SIES GST, Focuses on understanding the core principles of Machine Learning. Here we covered concepts from basic Math used in computing a neuron to classifying 10 digit numbers using a fully connected Neural Network.
 ## Single Neuron Output.
 $$ \text{neuron output} = \mathbf{input} \cdot \mathbf{weight} + bias $$
-## Computing multiple neurons at once, also known as a layer of neurons.
+## Now, lets compute multiple neurons at once, also known as a layer of neurons.
 $$ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} $$
 Here input and weight are arrays of float values of which dot product is calculated.
 ## ReLU Activation Function.
@@ -28,5 +28,6 @@ $$\hat{m}_t = \frac{m_t}{1 - \beta_1^t}$$
 $$m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $$
 ### Update the parameters $θ$:
 $$\theta_t = \theta_{t-1} - \frac{\alpha \cdot \hat{v}_t}{\sqrt{\hat{m}_t} + \epsilon}$$
-@Adityadikonda10
+
+
 [Adityadikonda10](https://github.com/Adityadikonda10)
