@@ -3,13 +3,14 @@ This was a workshop conducted under IEEE SIES GST, Focuses on understanding the 
 ## Single Neuron Output.
 $$ \text{neuron output} = \mathbf{input} \cdot \mathbf{weight} + bias $$
 ## Now, lets compute multiple neurons at once, also known as a layer of neurons.
-$$ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} $$
-$$ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} $$
-
+$$
+\text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases}
+$$
 Here input and weight are arrays of float values of which dot product is calculated.
 ## ReLU Activation Function.
-$$ \text{ReLU}(x) = \max(0,x) $$
-$$ \text{ReLU}(x) = \max(0, x) $$
+$$ 
+\text{ReLU}(x) = \max(0, x) 
+$$
 ReLU is mostly used to activate hidden layers.
 ## SoftMax Activation
 $$ \text{Softmax}(z_i) = \frac{e^{z_i}}{\sum_{j} e^{z_j}} $$
