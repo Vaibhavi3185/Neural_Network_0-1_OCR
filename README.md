@@ -6,4 +6,4 @@ This workshop was conducted under the auspices of IEEE SIES GST. The workshop wa
 
 For more information or inquiries, you can reach out to him on:
 - [*GitHub*](https://github.com/Adityadikonda10)
-- [*LinkedIn*](https://www.linkedin.com/in/aditya-dikonda/)
+- [*LinkedIn*](https://www.linkedin.com/in/aditya-dikonda-144141286)
